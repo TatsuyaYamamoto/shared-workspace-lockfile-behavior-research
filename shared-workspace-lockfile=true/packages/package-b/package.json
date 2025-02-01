@@ -4,5 +4,6 @@
   "scripts": {
   },
   "dependencies": {
+    "@babel/parser": "7.12.17"
   }
 }
