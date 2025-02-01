@@ -42,8 +42,8 @@ importers:                                                    (
                                                               >   packages/package-b:
                                                               >     dependencies:
                                                               >       '@babel/parser':
-                                                              >         specifier: 7.12.17
-                                                              >         version: 7.12.17
+                                                              >         specifier: 7.11.5
+                                                              >         version: 7.11.5
                                                               > 
 packages:                                                     (
                                                               (
@@ -55,8 +55,8 @@ packages:                                                     (
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwK (
     engines: {node: '>=6.9.0'}                                (
                                                               (
-  '@babel/parser@7.26.7':                                     |   '@babel/parser@7.12.17':
-    resolution: {integrity: sha512-kEvgGGgEjRUutvdVvZhbn/BxVt |     resolution: {integrity: sha512-r1yKkiUTYMQ8LiEI0UcQx5ETw5
+  '@babel/parser@7.26.7':                                     |   '@babel/parser@7.11.5':
+    resolution: {integrity: sha512-kEvgGGgEjRUutvdVvZhbn/BxVt |     resolution: {integrity: sha512-X9rD8qqm695vgmeaQ4fvz/o3+W
     engines: {node: '>=6.0.0'}                                (
     hasBin: true                                              (
                                                               (
@@ -101,7 +101,7 @@ snapshots:                                                    (
                                                               (
   '@babel/helper-validator-identifier@7.25.9': {}             (
                                                               (
-  '@babel/parser@7.26.7':                                     |   '@babel/parser@7.12.17':
+  '@babel/parser@7.26.7':                                     |   '@babel/parser@7.11.5':
     dependencies:                                             (
       '@babel/types': 7.26.7                                  (
                                                               (
@@ -112,7 +112,7 @@ snapshots:                                                    (
                                                               (
   '@vue/compiler-core@3.0.0':                                 (
     dependencies:                                             (
-      '@babel/parser': 7.26.7                                 |       '@babel/parser': 7.12.17
+      '@babel/parser': 7.26.7                                 |       '@babel/parser': 7.11.5
       '@babel/types': 7.26.7                                  (
       '@vue/shared': 3.0.0                                    (
       estree-walker: 2.0.2                                    (
